@@ -50,12 +50,9 @@ cd To_Do-GPT
 pip install -r requirements.txt
 ```
 
-> Requirements include `streamlit`, `mysql-connector-python`, etc.
-
 3. **Create the database**
 
 ```sql
--- database_creation.sql
 CREATE DATABASE IF NOT EXISTS db_to_do_gpt;
 USE db_to_do_gpt;
 
@@ -103,18 +100,17 @@ streamlit run app.py
 
 * Add **user authentication** to maintain separate task lists.
 * Add **due dates and reminders**.
-* Add **Google calendar link for task remainder** for task reordering.
+* Add **drag-and-drop UI** for task reordering.
+* Deploy the app to **Streamlit Cloud** or **Heroku**.
 
 ---
+
 ## 🎨 Screenshots
 
-
-```markdown
-![Welcome Page](screenshots/welcome.png)
-![Create Task](screenshots/create_task.png)
-![Pending Tasks](screenshots/pending_tasks.png)
-![Modify/Delete Tasks](screenshots/modify_delete.png)
-```
+<img src="screenshots/welcome.png" alt="Welcome Page" width="400"/>
+<img src="screenshots/create_task.png" alt="Create Task" width="400"/>
+<img src="screenshots/pending_tasks.png" alt="Pending Tasks" width="400"/>
+<img src="screenshots/modify_delete.png" alt="Modify/Delete Tasks" width="400"/>
 
 ---
 
